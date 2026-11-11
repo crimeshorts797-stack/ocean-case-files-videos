@@ -1,0 +1,72 @@
+[
+ {
+  "id": "h",
+  "text": "There is a jellyfish people call immortal. Is that true?",
+  "pause": 0.6
+ },
+ {
+  "id": "name",
+  "text": "Meet Turritopsis dohrnii. Smaller than your fingernail.",
+  "pause": 0.5
+ },
+ {
+  "id": "most",
+  "text": "Most jellyfish grow up, reproduce, and die.",
+  "pause": 0.4
+ },
+ {
+  "id": "rew",
+  "text": "This one can hit rewind.",
+  "pause": 0.6
+ },
+ {
+  "id": "stress",
+  "text": "When it's injured, starving, or stressed, the adult sinks and turns back into a polyp, its baby stage.",
+  "pause": 0.35
+ },
+ {
+  "id": "again",
+  "text": "Then it grows up again.",
+  "pause": 0.5
+ },
+ {
+  "id": "lab",
+  "text": "In the lab, scientists watched it cycle back and forth, again and again.",
+  "pause": 0.4
+ },
+ {
+  "id": "old",
+  "text": "So it doesn't have to die of old age.",
+  "pause": 0.6
+ },
+ {
+  "id": "catch",
+  "text": "But here's the catch.",
+  "pause": 0.35
+ },
+ {
+  "id": "eaten",
+  "text": "It can still be eaten. By fish, sea turtles, even other jellyfish. And it can die from disease.",
+  "pause": 0.5
+ },
+ {
+  "id": "full",
+  "text": "As one researcher put it: if they were truly immortal, the ocean would be full of them.",
+  "pause": 0.7
+ },
+ {
+  "id": "verdict",
+  "text": "Verdict: half true. It can beat old age, not everything else.",
+  "pause": 0.6
+ },
+ {
+  "id": "genes",
+  "text": "Now scientists study its genes to understand aging itself.",
+  "pause": 0.4
+ },
+ {
+  "id": "cta",
+  "text": "Should we be jealous?",
+  "pause": 0.3
+ }
+]

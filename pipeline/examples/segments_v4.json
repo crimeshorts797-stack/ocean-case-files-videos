@@ -1,0 +1,77 @@
+[
+ {
+  "id": "h",
+  "text": "There is a sound in the Pacific that has repeated for decades, and no one knows what makes it.",
+  "pause": 0.6
+ },
+ {
+  "id": "y",
+  "text": "In 1991, scientists started listening to the ocean with old Navy microphones.",
+  "pause": 0.35
+ },
+ {
+  "id": "there",
+  "text": "And this sound was already there.",
+  "pause": 0.5
+ },
+ {
+  "id": "name",
+  "text": "They call it the Upsweep.",
+  "pause": 0.5
+ },
+ {
+  "id": "train",
+  "text": "A long train of rising tones, each a few seconds long, again and again.",
+  "pause": 0.4
+ },
+ {
+  "id": "loud",
+  "text": "Loud enough to be recorded across the whole Pacific.",
+  "pause": 0.5
+ },
+ {
+  "id": "loc",
+  "text": "Scientists traced it to a remote spot in the far South Pacific, thousands of kilometers from any coast.",
+  "pause": 0.5
+ },
+ {
+  "id": "season",
+  "text": "And it's seasonal. It peaks in spring and autumn.",
+  "pause": 0.35
+ },
+ {
+  "id": "why",
+  "text": "Nobody knows if the source changes, or just the ocean that carries it.",
+  "pause": 0.5
+ },
+ {
+  "id": "guess",
+  "text": "The best guess: volcanic activity on the seafloor nearby.",
+  "pause": 0.35
+ },
+ {
+  "id": "proof",
+  "text": "But no one has proven it.",
+  "pause": 0.5
+ },
+ {
+  "id": "quiet",
+  "text": "Since 1991, it has slowly been getting quieter.",
+  "pause": 0.5
+ },
+ {
+  "id": "noaa",
+  "text": "The agency's own archive says it plainly. The origin is unresolved.",
+  "pause": 0.6
+ },
+ {
+  "id": "verdict",
+  "text": "Verdict: unsolved.",
+  "pause": 0.8
+ },
+ {
+  "id": "end",
+  "text": "So what is still singing down there?",
+  "pause": 0.3
+ }
+]

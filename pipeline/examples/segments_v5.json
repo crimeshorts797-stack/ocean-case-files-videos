@@ -1,0 +1,77 @@
+[
+ {
+  "id": "h1",
+  "text": "Sperm whale versus giant squid.",
+  "pause": 0.25
+ },
+ {
+  "id": "h2",
+  "text": "A fight in total darkness. Who wins?",
+  "pause": 0.5
+ },
+ {
+  "id": "seen",
+  "text": "Almost no one has ever seen it happen. So we look at the evidence.",
+  "pause": 0.6
+ },
+ {
+  "id": "e1",
+  "text": "Exhibit one: the whale's skin.",
+  "pause": 0.3
+ },
+ {
+  "id": "scars",
+  "text": "Sperm whales come up covered in round scars. Sucker marks. Old whales have so many, they overlap.",
+  "pause": 0.5
+ },
+ {
+  "id": "pt",
+  "text": "Point to the squid.",
+  "pause": 0.6
+ },
+ {
+  "id": "e2",
+  "text": "Exhibit two: the stomach.",
+  "pause": 0.3
+ },
+ {
+  "id": "beaks",
+  "text": "Squid beaks are hard. They don't digest.",
+  "pause": 0.35
+ },
+ {
+  "id": "nz",
+  "text": "In sixteen sperm whales stranded in New Zealand, researchers counted more than twenty three thousand beaks. Giant squid among them.",
+  "pause": 0.6
+ },
+ {
+  "id": "e3",
+  "text": "Exhibit three: size.",
+  "pause": 0.3
+ },
+ {
+  "id": "size",
+  "text": "A grown sperm whale is more than a hundred times heavier than any giant squid.",
+  "pause": 0.5
+ },
+ {
+  "id": "leave",
+  "text": "The squid leaves scars. The whale leaves with dinner.",
+  "pause": 0.7
+ },
+ {
+  "id": "verdict",
+  "text": "Verdict: sperm whale wins.",
+  "pause": 0.8
+ },
+ {
+  "id": "twist",
+  "text": "But the squid gets the last word. Its remains in whale stomachs helped prove giant squid were real at all.",
+  "pause": 0.5
+ },
+ {
+  "id": "cta",
+  "text": "Who should fight next?",
+  "pause": 0.3
+ }
+]

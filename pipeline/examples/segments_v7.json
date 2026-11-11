@@ -1,0 +1,72 @@
+[
+ {
+  "id": "h1",
+  "text": "Orca versus humpback whale.",
+  "pause": 0.25
+ },
+ {
+  "id": "h2",
+  "text": "The orca is the ocean's top predator. So it wins, right?",
+  "pause": 0.4
+ },
+ {
+  "id": "not",
+  "text": "Not quite.",
+  "pause": 0.6
+ },
+ {
+  "id": "ant",
+  "text": "Antarctica, 2009. Orcas knocked a seal off an ice floe.",
+  "pause": 0.35
+ },
+ {
+  "id": "hb",
+  "text": "Then a humpback swam in, and the seal ended up resting on the humpback's chest.",
+  "pause": 0.6
+ },
+ {
+  "id": "pit",
+  "text": "Scientist Robert Pitman started collecting cases.",
+  "pause": 0.35
+ },
+ {
+  "id": "n",
+  "text": "He found one hundred fifteen encounters between humpbacks and hunting orcas, from 1951 to 2012.",
+  "pause": 0.5
+ },
+ {
+  "id": "own",
+  "text": "In only about one in ten, the humpbacks were protecting their own calves.",
+  "pause": 0.35
+ },
+ {
+  "id": "rest",
+  "text": "The rest? Seals. Sea lions. Gray whales. Even a sunfish.",
+  "pause": 0.5
+ },
+ {
+  "id": "how",
+  "text": "They trumpet, slap their giant flippers, and charge in, sometimes from far away.",
+  "pause": 0.4
+ },
+ {
+  "id": "only",
+  "text": "Humpbacks are the only whales known to drive orcas off.",
+  "pause": 0.7
+ },
+ {
+  "id": "verdict",
+  "text": "Verdict: humpbacks win the standoff.",
+  "pause": 0.8
+ },
+ {
+  "id": "why",
+  "text": "Why do they do it? Maybe they just hear orcas hunting, and come to break it up.",
+  "pause": 0.4
+ },
+ {
+  "id": "cta",
+  "text": "Would you call that a hero?",
+  "pause": 0.3
+ }
+]

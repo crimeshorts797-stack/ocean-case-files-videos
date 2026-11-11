@@ -1,0 +1,67 @@
+[
+ {
+  "id": "h",
+  "text": "This shark may have been alive before the United States existed.",
+  "pause": 0.6
+ },
+ {
+  "id": "what",
+  "text": "It's a Greenland shark. Arctic water, near freezing.",
+  "pause": 0.35
+ },
+ {
+  "id": "grow",
+  "text": "It grows about one centimeter a year.",
+  "pause": 0.6
+ },
+ {
+  "id": "cent",
+  "text": "For a century, nobody could tell how old they get. No growth rings. No hard bones to count.",
+  "pause": 0.5
+ },
+ {
+  "id": "eye",
+  "text": "Then, in 2016, scientists found a clock hidden in the eye.",
+  "pause": 0.4
+ },
+ {
+  "id": "lens",
+  "text": "The center of the eye lens forms before birth, and never changes.",
+  "pause": 0.35
+ },
+ {
+  "id": "dated",
+  "text": "They radiocarbon dated it in twenty eight sharks.",
+  "pause": 0.5
+ },
+ {
+  "id": "big",
+  "text": "The biggest, five meters long, came out at about three hundred ninety two years.",
+  "pause": 0.4
+ },
+ {
+  "id": "range",
+  "text": "The range is wide. Somewhere between 272 and 512 years.",
+  "pause": 0.5
+ },
+ {
+  "id": "crit",
+  "text": "Some scientists think that's too high. But even they say: well over two hundred.",
+  "pause": 0.4
+ },
+ {
+  "id": "moms",
+  "text": "And females only become mothers at around a hundred and fifty.",
+  "pause": 0.6
+ },
+ {
+  "id": "verdict",
+  "text": "Verdict: solved. The oldest known vertebrate on Earth.",
+  "pause": 0.7
+ },
+ {
+  "id": "end",
+  "text": "And one of them may still be out there, swimming.",
+  "pause": 0.3
+ }
+]
