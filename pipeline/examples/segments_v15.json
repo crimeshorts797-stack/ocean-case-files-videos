@@ -1,0 +1,62 @@
+[
+ {
+  "id": "h",
+  "text": "You've heard octopuses have nine brains. Is that true?",
+  "pause": 0.6
+ },
+ {
+  "id": "three",
+  "text": "Some of the weird facts are real. Three hearts. Blue blood.",
+  "pause": 0.5
+ },
+ {
+  "id": "neur",
+  "text": "And about five hundred million neurons. But only about a third are in its head.",
+  "pause": 0.4
+ },
+ {
+  "id": "arms",
+  "text": "Two thirds sit in its arms and body.",
+  "pause": 0.5
+ },
+ {
+  "id": "each",
+  "text": "Each arm has its own big nerve cord. Its suckers can feel and taste.",
+  "pause": 0.5
+ },
+ {
+  "id": "so",
+  "text": "So people started saying: one central brain, plus eight mini brains.",
+  "pause": 0.6
+ },
+ {
+  "id": "y20",
+  "text": "But in 2020, researchers put it to a test. Octopuses had to guide one arm through a maze to reach food.",
+  "pause": 0.4
+ },
+ {
+  "id": "used",
+  "text": "They used their eyes and their central brain to steer the arm.",
+  "pause": 0.5
+ },
+ {
+  "id": "team",
+  "text": "So the arms are clever, but they don't work alone.",
+  "pause": 0.5
+ },
+ {
+  "id": "quote",
+  "text": "As one researcher put it: one brain, and eight very clever arms.",
+  "pause": 0.7
+ },
+ {
+  "id": "verdict",
+  "text": "Verdict: half true.",
+  "pause": 0.7
+ },
+ {
+  "id": "cta",
+  "text": "Which octopus fact surprised you most?",
+  "pause": 0.3
+ }
+]

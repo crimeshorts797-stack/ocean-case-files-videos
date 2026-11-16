@@ -1,0 +1,62 @@
+[
+ {
+  "id": "h",
+  "text": "The biggest shark that ever lived. So what killed it?",
+  "pause": 0.6
+ },
+ {
+  "id": "size",
+  "text": "Megalodon. Around fifteen meters long, maybe more.",
+  "pause": 0.5
+ },
+ {
+  "id": "when",
+  "text": "For years, scientists thought it vanished about two point six million years ago.",
+  "pause": 0.4
+ },
+ {
+  "id": "y19",
+  "text": "Then, in 2019, a team rechecked the fossil record of California and Mexico.",
+  "pause": 0.4
+ },
+ {
+  "id": "real",
+  "text": "The real fossils stop around three point six million years ago. A million years earlier.",
+  "pause": 0.6
+ },
+ {
+  "id": "s1",
+  "text": "Suspect one: a cooling ocean, breaking its range apart.",
+  "pause": 0.4
+ },
+ {
+  "id": "s2",
+  "text": "Suspect two: food. Its prey was changing.",
+  "pause": 0.4
+ },
+ {
+  "id": "s3",
+  "text": "Suspect three: a smaller, faster rival. The great white shark.",
+  "pause": 0.5
+ },
+ {
+  "id": "gw",
+  "text": "Great whites appeared about four million years ago. Soon after, megalodon was gone.",
+  "pause": 0.5
+ },
+ {
+  "id": "over",
+  "text": "The researchers suggest the newcomer may have outcompeted the giant.",
+  "pause": 0.6
+ },
+ {
+  "id": "verdict",
+  "text": "Verdict: unsolved. The suspects are on the board, but no one has closed the case.",
+  "pause": 0.6
+ },
+ {
+  "id": "cta",
+  "text": "Who do you think did it?",
+  "pause": 0.3
+ }
+]

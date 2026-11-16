@@ -1,0 +1,62 @@
+[
+ {
+  "id": "h",
+  "text": "What is the loudest animal on Earth? Not a lion. Not a blue whale.",
+  "pause": 0.6
+ },
+ {
+  "id": "whale",
+  "text": "It's the sperm whale.",
+  "pause": 0.6
+ },
+ {
+  "id": "nose",
+  "text": "Its giant square head is mostly nose. The biggest nose of any animal.",
+  "pause": 0.4
+ },
+ {
+  "id": "click",
+  "text": "Inside, it pushes air past a pair of flaps nicknamed monkey lips, and fires clicks into the dark.",
+  "pause": 0.5
+ },
+ {
+  "id": "hunt",
+  "text": "It uses them like sonar, to find squid a thousand meters down.",
+  "pause": 0.6
+ },
+ {
+  "id": "db",
+  "text": "In 2003, scientists measured clicks of up to two hundred thirty six decibels, underwater.",
+  "pause": 0.5
+ },
+ {
+  "id": "rec",
+  "text": "By far the loudest sound ever recorded from any animal.",
+  "pause": 0.6
+ },
+ {
+  "id": "care",
+  "text": "Careful: decibels underwater aren't the same as decibels in air.",
+  "pause": 0.4
+ },
+ {
+  "id": "air",
+  "text": "Converted to air, it's still around one hundred seventy four. Far louder than a rock concert.",
+  "pause": 0.6
+ },
+ {
+  "id": "far",
+  "text": "And other sperm whales can hear those clicks tens of kilometers away.",
+  "pause": 0.6
+ },
+ {
+  "id": "verdict",
+  "text": "Verdict: solved. The loudest animal on Earth.",
+  "pause": 0.7
+ },
+ {
+  "id": "cta",
+  "text": "Using that voice to hunt, in total darkness.",
+  "pause": 0.3
+ }
+]

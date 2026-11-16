@@ -70,3 +70,46 @@ def greenland(x, y, s=1.0, t0=0, body="#5b5550", belly="#8a827b", **k):
          f"<path fill='{body}' d='M70,36 L40,90 L22,40 Z'/>"
          f"<circle cx='160' cy='-12' r='6' fill='#1a1a1a'/><path d='M166,-8 q6,18 -2,34' stroke='#cfd8b0' stroke-width='3' fill='none' opacity='.8'/></g>")
     return svg(m, t0, **k)
+
+def mantis(x, y, s=1.0, t0=0, strike=False, **k):
+    # peacock mantis shrimp: green body, orange club, red/blue accents
+    club = ("<path d='M60,10 L150,-10 L160,8 L70,30 Z' fill='#e86a3a'/><ellipse cx='162' cy='0' rx='18' ry='14' fill='#f39a4b'/>" if strike
+            else "<path d='M60,10 C90,40 110,40 120,20 L110,14 C100,26 86,24 70,6 Z' fill='#e86a3a'/><ellipse cx='118' cy='18' rx='14' ry='11' fill='#f39a4b'/>")
+    segs = "".join(f"<path d='M{-120+i*28},-30 q8,32 0,64' stroke='#2f8f5b' stroke-width='3' fill='none'/>" for i in range(6))
+    m = (f"<g transform='translate({x} {y}) scale({s})'>"
+         "<path fill='#3fb37a' d='M-170,0 C-140,-38 20,-46 70,-14 C84,-4 84,14 70,24 C20,46 -140,40 -170,0 Z'/>"
+         "<ellipse cx='-186' cy='-16' rx='22' ry='9' fill='#3a76c4' transform='rotate(-25 -186 -16)'/><ellipse cx='-192' cy='0' rx='24' ry='9' fill='#e2507a'/><ellipse cx='-186' cy='16' rx='22' ry='9' fill='#3a76c4' transform='rotate(25 -186 16)'/>" + segs + club +
+         "<rect x='58' y='-34' width='8' height='22' fill='#3fb37a'/><circle cx='62' cy='-40' r='10' fill='#e2c04b'/><circle cx='62' cy='-40' r='4' fill='#111'/>"
+         "<path d='M70,-20 q30,-30 60,-36' stroke='#e2507a' stroke-width='3' fill='none'/></g>")
+    return svg(m, t0, **k)
+def snail(x, y, s=1.0, t0=0, cracked=False, **k):
+    crack = "<path d='M-10,-50 L6,-20 L-8,0 L10,30' stroke='#2a1a10' stroke-width='5' fill='none'/>" if cracked else ""
+    m = (f"<g transform='translate({x} {y}) scale({s})'><path d='M-70,40 C-70,-60 70,-70 70,10 C70,50 -40,60 -70,40 Z' fill='#a0805c'/>"
+         "<path d='M0,0 m-40,0 a40,40 0 1,0 80,0 a30,30 0 1,0 -60,0 a20,20 0 1,0 40,0' stroke='#7a5c3c' stroke-width='6' fill='none'/>" + crack + "</g>")
+    return svg(m, t0, **k)
+def octopus(x, y, s=1.0, t0=0, col="#c4564a", **k):
+    arms = "".join(f"<path d='M{-50+i*14},40 C{-80+i*22},120 {-60+i*20},180 {-90+i*26},230' stroke='{col}' stroke-width='16' fill='none' stroke-linecap='round'/>" for i in range(8))
+    m = (f"<g transform='translate({x} {y}) scale({s})'>{arms}<ellipse cx='0' cy='-40' rx='80' ry='100' fill='{col}'/>"
+         "<ellipse cx='-30' cy='10' rx='14' ry='10' fill='#f4e1c8'/><ellipse cx='30' cy='10' rx='14' ry='10' fill='#f4e1c8'/>"
+         "<rect x='-36' y='7' width='12' height='5' fill='#111'/><rect x='24' y='7' width='12' height='5' fill='#111'/></g>")
+    return svg(m, t0, **k)
+def angler(x, y, s=1.0, t0=0, male=False, **k):
+    lure = "<path d='M40,-60 Q90,-140 150,-110' stroke='#3a3330' stroke-width='5' fill='none'/><circle cx='152' cy='-108' r='12' fill='#cffff2' filter='url(#glow)'/>"
+    teeth = "".join(f"<polygon points='{80+i*12},10 {86+i*12},28 {92+i*12},10' fill='#e8e2d0'/>" for i in range(5))
+    m = (f"<g transform='translate({x} {y}) scale({s})'>{lure}"
+         "<path fill='#2a2421' d='M-120,0 C-120,-90 120,-100 140,-10 C150,40 100,80 0,80 C-80,80 -120,50 -120,0 Z'/>"
+         "<path fill='#2a2421' d='M-120,0 L-180,-40 L-170,0 L-180,40 Z'/>"
+         f"<path d='M70,10 L150,0 L140,40 Z' fill='#120f0e'/>{teeth}<circle cx='60' cy='-30' r='8' fill='#dfe7ea'/></g>")
+    return svg(m, t0, **k)
+def tinymale(x, y, s=1.0, t0=0, **k):
+    m = f"<g transform='translate({x} {y}) scale({s})'><ellipse rx='26' ry='12' fill='#5a4d46'/><path d='M-26,0 L-40,-10 L-38,0 L-40,10 Z' fill='#5a4d46'/><circle cx='14' cy='-3' r='3' fill='#dfe7ea'/></g>"
+    return svg(m, t0, **k)
+def albatross(x, y, s=1.0, t0=0, water=False, **k):
+    wings = "" if water else "<path d='M-20,0 C-120,-60 -220,-40 -260,-10 C-180,-20 -100,0 -20,10 Z' fill='#f2f2ef'/><path d='M20,0 C120,-60 220,-40 260,-10 C180,-20 100,0 20,10 Z' fill='#f2f2ef'/><path d='M-260,-10 C-230,-26 -210,-22 -200,-14 Z M260,-10 C230,-26 210,-22 200,-14 Z' fill='#3a3a3a'/>"
+    m = (f"<g transform='translate({x} {y}) scale({s})'>{wings}<ellipse rx='60' ry='26' fill='#f7f7f4'/><circle cx='56' cy='-14' r='20' fill='#f7f7f4'/>"
+         "<path d='M72,-14 L112,-6 L74,0 Z' fill='#e9c46a'/><circle cx='62' cy='-18' r='3' fill='#111'/>"
+         + ("<ellipse cx='0' cy='22' rx='90' ry='6' fill='#cfe8f0' opacity='.6'/>" if water else "") + "</g>")
+    return svg(m, t0, **k)
+def tigerstripes(x, y, s=1.0, t0=0, **k):
+    st = "".join(f"<path d='M{-60+i*34},-30 q8,18 0,36' stroke='#3a3a3a' stroke-width='7' fill='none' opacity='.55'/>" for i in range(6))
+    return svg(f"<g transform='translate({x} {y}) scale({s})'>{st}</g>", t0, layer="overlay", **k)
